@@ -2,7 +2,8 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "type": "module",
   "scripts": {
     "start:dev": "npx tsx src/main.ts"
   },
