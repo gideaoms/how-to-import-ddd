@@ -2,7 +2,7 @@ import * as Repositories from "../../core/repositories/mod.js";
 import * as Models from "../../core/models/mod.js";
 
 export class Repository implements Repositories.Todo.Repository {
-  readonly _todos: Models.Todo.Model[] = [];
+  private readonly _todos: Models.Todo.Model[] = [];
 
   create(todo: Models.Todo.Model) {
     const todoWithId = new Models.Todo.Model({
