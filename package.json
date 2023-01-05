@@ -1,0 +1,16 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx tsx src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4"
+  }
+}
